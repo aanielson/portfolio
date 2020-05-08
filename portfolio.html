@@ -17,46 +17,70 @@
 </head>
 <body>
     <!--navbar to link to different portions of the same page-->
-    <header>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!--Nielson Logo?-->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/designer-logo.png" width="150" height="40" alt="Abigail Nielson">
+            </a>
+            <!--Future code for responsive toggle-->
+            <!--
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                ====OR======
+                <div class="navbar-header">
+                    <button class="menu-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Abigail Nielson</a>
+                </div>
+            -->
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="#home" class="active text-white nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="text-white nav-link">About</a></li>
+                <li class="nav-item"><a href="#resume" class="text-white nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#portfolio" class="text-white nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="text-white nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
     <!--Initial section with image-->
-    <div class="home">
+    <div id="home" class="grey-back">
 
     </div>
 
     <!--About me section with picture of me-->
-    <div class="about black-back">
+    <div id="about" class="black-back">
         
     </div>
     
     <!--resume section-->
-    <div class="resume grey-back">
+    <div id="resume" class="grey-back">
         
     </div>
     
     <!--portfolio section with recent work-->
-    <div class="portfolio black-back">
+    <div id="portfolio" class="black-back">
         
     </div>
     
     <!--contact section-->
-    <div class="contact grey-back">
+    <div id="contact" class="grey-back">
         
     </div>
     <!--Footer with professional links-->
-    <footer>
-        <ul>
-            <li><a href="#"><i class="fa fa-git"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <footer >
+        <ul class="nav navbar-fixed-bottom justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-git-square text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin-square text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook-official text-white"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram text-white"></i></a></li>
         </ul>
     </footer>
 
