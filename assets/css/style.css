@@ -58,6 +58,7 @@ nav {
     padding: 5px;
     text-align: center;
 }
+
 /*==================Text Styling==================*/
 h1 {
     font-family: 'Playfair Display', serif;
@@ -73,6 +74,11 @@ h3 {
 h4 {
     font-size: 16pt;
     color: #FFCB3A;
+}
+h5 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
 }
 #brand-statement {
     margin-bottom: 30px;
@@ -100,7 +106,30 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*==================Modal styling==================*/
+.item-title {
+    color: #fff;
+    background-color: #511D47;
+}
+.portfolio-modal {
+    cursor: pointer;
+}
+#modal-button {
+    color: #fff;
+    background-color: #FF4F61;
+    font-size: 14pt;
+}
+.modal-body {
+    color: black;
+}
+.project-link {
+    background-color: #FFCB3A;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
 /*==================Manual Media Queries==================*/
 @media screen and (max-width: 980px) {
     h4 {
