@@ -6,13 +6,14 @@ font-family: 'League Script', cursive;
 font-family: 'Raleway', sans-serif;
     styles: extra light, light, regular, italic
 */
+
+/*==================background, header/footer/nav display==================*/
 #home {
     background-image: url(../images/minimal.png);
     width: 100%;
-    min-height: 700px;
+    min-height: 600px;
     box-shadow: 3px 3px 5px #193829;
     background-size: cover;
-    color: #faefd9;
 }
 .black-back {
     background-color: #1E2425;
@@ -35,4 +36,25 @@ footer {
 }
 nav {
     background-color: #511D47;
+}
+.main {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*==================Text Styling==================*/
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 72pt;
+}
+h2 {
+
+}
+h3 {
+    
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: light;
 }
