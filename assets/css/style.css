@@ -58,7 +58,6 @@ nav {
     box-shadow: 3px 2px 3px black;
 }
 .skills-inner {
-    padding: 5px;
     text-align: center;
 }
 /*resume section*/
@@ -72,6 +71,12 @@ nav {
     margin-bottom: 30px;
     box-shadow: 3px 2px 3px black;
     font-size: 10pt;
+}
+.employment {
+    margin-bottom: 60px;
+}
+.education {
+    margin-bottom: 60px;
 }
 
 /*==================Text Styling==================*/
