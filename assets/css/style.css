@@ -78,7 +78,57 @@ nav {
 .education {
     margin-bottom: 60px;
 }
-
+/*Contact Me Section*/
+.contact-form {
+    background-color: #1E2425;
+    color: #fff;
+    box-shadow: 0px 0px 10px black;
+    outline: none;
+    box-shadow: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.form-control {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+    outline: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.textarea {
+    overflow: auto;
+    resize: vertical;
+    box-sizing: border-box;
+    text-rendering: auto;
+    text-align: start;
+}
+.contact-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin-bottom: 17.5px;
+    background-color: #1E2425;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+.icon-box {
+    background-color: #FFCB3A;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
 /*==================Text Styling==================*/
 h1 {
     font-family: 'Playfair Display', serif;
