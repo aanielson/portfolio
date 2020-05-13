@@ -49,7 +49,7 @@ nav {
 .about-image {
     padding-bottom: 30px;
 }
-.skills {
+.skills-1 {
     background-color: #343B3C;
     padding: 24px;
     border: none;
@@ -123,11 +123,20 @@ nav {
     left: 10px;
     width: 30px;
     height: 30px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     border-radius: 50%;
     font-size: 18px;
     color: #fff;
+}
+.skills-2 {
+    display: none;
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
 }
 /*==================Text Styling==================*/
 h1 {
@@ -220,7 +229,7 @@ body {
     h4 {
         font-size: 11pt;
     }
-    .skills {
+    .skills-1 {
         padding: 10px;
         padding-right: 30px;
     }
@@ -229,6 +238,15 @@ body {
     }
 }
 
+@media screen and (max-width: 1175px) {
+    .skills-1 {
+        display: none;
+    }
+    .skills-2 {
+        display: inherit;
+
+    }
+}
 @media screen and (max-width: 768px) {
     
 }
@@ -236,3 +254,6 @@ body {
 @media screen and (max-width: 640px) {
     
 }
+
+/*Have two different displays at the different sizes*/
+/*Have the technical skills display: none at larger and switch to display: */
