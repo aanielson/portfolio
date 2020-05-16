@@ -251,6 +251,12 @@ body {
         display: inherit;
 
     }
+    /* .collapsed-navbar {
+        display: inherit;
+    }
+    .expanded-navbar {
+        display: none;
+    }   */
 }
 @media screen and (max-width: 768px) {
     
