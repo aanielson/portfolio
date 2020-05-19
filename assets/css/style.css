@@ -129,6 +129,18 @@ nav {
     font-size: 18px;
     color: #fff;
 }
+.resume-icon {
+    background-color: #FFCB3A;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+}
 .skills-2 {
     display: none;
     background-color: #343B3C;
