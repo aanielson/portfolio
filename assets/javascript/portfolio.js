@@ -1,10 +1,10 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrolltop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrolltop > 300 || document.documentElement.scrollTop > 300) {
     document.getElementById("navlinks").style.height = "50px";
-    document.getElementById("navlinks").style.backgroundColor = "rgb(242, 174, 2)";
+    document.getElementById("navlinks").style.backgroundColor = "#511D47";
   } else {
-    document.getElementById("navlinks").style.backgroundColor = "transparent";
+    document.getElementById("navlinks").style.backgroundColor = "#511D47";
   }
 }
