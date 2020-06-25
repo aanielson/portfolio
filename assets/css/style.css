@@ -235,6 +235,7 @@ body {
 }
 .portfolio-img {
     box-shadow: 3px 0px 3px black;
+    width: 100%;
 }
 #modal-button {
     color: #fff;
