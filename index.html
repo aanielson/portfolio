@@ -22,19 +22,19 @@
 
 <body>
     <!--navbar to link to different portions of the same page-->
-    <nav class="navbar navbar-expand-md navbar-dark static-top p-0 fixed-top" id="navlinks">
-        <div class="container-fluid">
-            <!--Nielson Logo?-->
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/designer-logo.png" width="150" height="40" alt="Abigail Nielson">
-            </a>
-            <div id="collapsed-navbar">
+    <nav class="navbar navbar-expand-md navbar-dark p-0 fixed-top" id="navlinks">
+       <!--Nielson Logo?-->
+        <a class="navbar-brand" href="#">
+            <img src="./assets/images/designer-logo.png" width="150" height="40" alt="Abigail Nielson">
+        </a>
+        <!-- <div class="container-fluid">
+            <div id="collapsed-navbar"> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="text-white navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse text-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active"><a href="#home" class="text-white nav-link">Home<span
                                     class="sr-only">(current)</span></a></li>
                         <li class="nav-item"><a href="#about" class="text-white nav-link">About</a></li>
@@ -42,8 +42,8 @@
                         <li class="nav-item"><a href="#portfolio" class="text-white nav-link">Portfolio</a></li>
                         <li class="nav-item"><a href="#contact" class="text-white nav-link">Contact</a></li>
                     </ul>
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
         </div>
     </nav>
     <!--==================End Navbar==================-->
@@ -868,9 +868,10 @@
                                         href="https://github.com/aanielson/friend-finder">
                                         <i class="fa fa-github fa-3x"></i>
                                     </a>
-                                    <a href="https://youtu.be/DPc9erbdPnE" class="text-secondary btn"><i class="fa fa-youtube-play fa-3x"
-                                            aria-hidden="true"></i></a>
-                                    <a href="https://aanielsonfriendfinder.herokuapp.com/" class="project-link btn">Go to project!</a>
+                                    <a href="https://youtu.be/DPc9erbdPnE" class="text-secondary btn"><i
+                                            class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+                                    <a href="https://aanielsonfriendfinder.herokuapp.com/" class="project-link btn">Go
+                                        to project!</a>
                                     <button type="button" class="btn" id="modal-button"
                                         data-dismiss="modal">Close</button>
                                 </div>
@@ -886,8 +887,14 @@
                                     <h5>The Ally App</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>The Ally App is a place where people can go to learn more about how to combat racial inequalities, view media resources that aid in combatting those inequalities, get assistance from people seeking to be allies, give assistance, and start petitions.</p>
-                                    <p>This full-stack, MVC (Model-View-Controller) application allows you to create help posts and petitions (POST), update those help posts and petitions (PUT), delete them as needed (DELETE), and view hundreds of resources from different tables (GET).</p>
+                                    <p>The Ally App is a place where people can go to learn more about how to combat
+                                        racial inequalities, view media resources that aid in combatting those
+                                        inequalities, get assistance from people seeking to be allies, give assistance,
+                                        and start petitions.</p>
+                                    <p>This full-stack, MVC (Model-View-Controller) application allows you to create
+                                        help posts and petitions (POST), update those help posts and petitions (PUT),
+                                        delete them as needed (DELETE), and view hundreds of resources from different
+                                        tables (GET).</p>
                                     <h9>Technologies Used</h9>
                                     <ul>
                                         <li>HTML</li>
@@ -910,7 +917,8 @@
                                     </a>
                                     <a href="#" class="text-secondary btn"><i class="fa fa-youtube-play fa-3x"
                                             aria-hidden="true"></i></a>
-                                    <a href="https://ally-resources.herokuapp.com/ " class="project-link btn">Go to project!</a>
+                                    <a href="https://ally-resources.herokuapp.com/ " class="project-link btn">Go to
+                                        project!</a>
                                     <button type="button" class="btn" id="modal-button"
                                         data-dismiss="modal">Close</button>
                                 </div>
@@ -1013,7 +1021,7 @@
                 crossorigin="anonymous"></script>
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-            <script src="assets/javascript/portfolio.js"></script>
+            <!-- <script src="assets/javascript/portfolio.js"></script> -->
 </body>
 
 </html>

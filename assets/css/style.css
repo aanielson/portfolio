@@ -44,6 +44,10 @@ nav {
     padding-top: 20px;
     padding-bottom: 60px;
 }
+.nav-item {
+    background-color: #511D47;
+    padding-right: 10px;
+}
 /*==================Section Styling==================*/
 /*about section*/
 .about-image {
