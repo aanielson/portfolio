@@ -1,6 +1,6 @@
 # Abigail Nielson Full Stack Engineering Portfolio
 This website showcases my skills, projects, and experience.
-View the deployed site 
+View the deployed site [HERE](https://aanielson.github.io/portfolio/)
 ## Navigation
 This portfolio is a single-page website with different sections. The navbar at the top of the page will take you to each individual section. 
 ### About
